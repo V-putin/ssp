@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('img/background.png');;
+}
+
+.game-place{
+    margin-top: 5vh;
+    margin-left:auto;
+    margin-right:auto;
+    height: 80vh;
+    width: 90vw;
+    background-color: white;
+    border-radius: 1vh;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.817);
+    position: relative;
+    padding: 5vh;
+}
+.output{
+    border-radius: 1vh;
+    padding: 5vh;
+    color: white;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.817)
+}
+.info{
+    text-align: center;
+    text-shadow: 0 0 5px red;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+    text-transform: uppercase;
+    height: 10vh;
+    width: 30vw;
+}
+.buttons{
+    text-align: center;
+    height: 30vh;
+    width: 60vw;
+    background-color: black;
+    margin-top: 15vh;
+    bottom: 3vh;
+    left: 50%;
+}
+.button {
+    font-family: 'Roboto Mono', monospace;
+    display: inline-block;
+    height: 30vh;
+    width: 19vw;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 70px;
+    text-transform:lowercase;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    margin-left: 16px;
+}
+.button:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
